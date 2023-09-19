@@ -1,0 +1,67 @@
+.width_of_card{
+    width: 25%;
+}
+.main_class{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+.navbar-brand{
+    color: grey;
+    font-weight: 600;
+}
+.slider{
+    width: 20%;
+    display: block;
+    margin: 10vh auto;
+    margin-top: 0;
+}
+.span{
+    width: 20%;
+    display: block;
+    text-align: center;
+    margin: 10vh auto;
+    margin-bottom: 0;
+}
+.slider::before {
+    content: "0";
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  .slider::after {
+    content: "30";
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .form{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    background-color: grey;
+  }
+  .heading2{
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 15vh;
+}
+.navbar-brand {
+    color: #333; /* Change to a suitable text color */
+    font-weight: 600;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #fff; /* Change to a suitable background color */
+    /* Add a contrasting color for the text in the navbar */
+    color: #333; /* Change to a suitable text color */
+}
+
+button.btn.btn-outline-success {
+    background-color: #007BFF; /* Change to a suitable background color */
+    color: #fff; /* Change to a suitable text color */
+}
